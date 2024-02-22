@@ -1,0 +1,26 @@
+/* Universal selector */
+*{
+    background-color: black;
+}
+
+
+/* Element selector */
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: pink;
+}
+/* Id selector */
+/* # is for id */
+#firstheading{
+    background-color: yellow;
+    color: pink;
+}
+/* class selector */
+/* .is for class */
+.mypara{
+    background-color: brown;
+    color: blue;
+    font-size: 30px;
+}
