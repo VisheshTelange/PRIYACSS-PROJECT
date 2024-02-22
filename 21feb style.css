@@ -1,7 +1,23 @@
 .container{
     height: 200px;
-    background-color: blue;
-    display: flex;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* shorthand for flex-direction and flex-wrap */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin-right: 10px;
+    
+    color: blue;
+     border-style: dotted;
+   
 
 }
